@@ -3,11 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ray</title>
+    <title>first sample page</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <h1>Ray</h1>
-    <p>Embrace Doubt</p>
-    <p>ray</p>
-</body>
+    <section>
+        <nav>
+            <div class="row">
+                <img src="./assets/FES.svg" class="logo"alt="">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#discord">Discord</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header>
+            <div class="row">
+                <div class="home__description">
+                    <h1>Best place to learn Frontend</h1>
+                    <p class="subheader">Go from being a beginner to being a Pro</p>
+                    <button class="home__description--button"> Start Now!</button>
+                </div>
+                <figure>
+                    <img src="./assets/laptop.png" alt="home page image">
+                </figure>
+            </div>
+        </header>
+    </section>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <div class="row">
+                <div class="section__description">
+                    <div class="about__text--wrapper">
+                    <p class="section__description--para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet eos sunt ullam nostrum explicabo commodi repellat quam? Rem nesciunt, placeat adipisci sequi iste pariatur odit repellat id provident! Minus.
+                    </p> 
+                    <p class="section__description--para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet eos sunt ullam nostrum explicabo commodi repellat quam? Rem nesciunt, placeat adipisci sequi iste pariatur odit repellat id provident! Minus.
+                    </p>
+                    </div>
+                    <figure class="about__img--wrapper">
+                        <img src="./assets/about.jpg" alt="About page image">
+                    </figure >
+                </div>
+            </div>
+        </section>
+
+        <section id="discord"> 
+            <h2>Discord</h2>
+            <div class="row">
+
+                <div class="section__description">
+                    <figure class="about__img--wrapper">
+                        <img src="./assets/discord.png" alt="Discord">
+                    </figure>
+
+                    <figure class="about__img--wrapper">
+                    <div>
+                        <p class="section__description--para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet eos sunt ullam nostrum explicabo commodi repellat quam? Rem nesciunt, placeat adipisci sequi iste pariatur odit repellat id provident! Minus.
+                        </p>
+                        <p class="section__description--para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eveniet eos sunt ullam nostrum explicabo commodi repellat quam? Rem nesciunt, placeat adipisci sequi iste pariatur odit repellat id provident! Minus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+             <h2>Contact</h2>
+                <form action="">
+                    <span>Email</span>
+                    <input type="email" placeholder="ray@example.com">
+                    <span>Message</span>
+                    <textarea type="text" placeholder="cool website"></textarea>
+                    <button>Contact Us!</button>
+
+                </form>
+        </section>
+    </main>
+
+    <footer>
+        <img class="footer__logo" src="./assets/FES.svg" alt="">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">about</a>
+            <a class="footer__link" href="#discord">discord</a>
+            <a class="footer__link" href="#contact">contact</a>
+            <a class="footer__link" href="#courses">home</a>
+        </div>
+        <p> Copyright &copy; 2023 Ray. All rights reserved.</p>
+    </footer>
 </html>
